@@ -1,15 +1,18 @@
-# PADEC (Packet Describer)
-# Explainability of Network Intrusion Detection using Transformers: A Packet-Level Approach
+# FLOWDEC (FLow Describer)
+
+## Packet Describer
+
+## Explainability of Network Intrusion Detection using Transformers: A Packet-Level Approach
 
 Welcome to the GitHub repository containing all the files and documents related to the thesis titled "Explainability of Network Intrusion Detection using Transformers: A Packet-Level Approach".
 
-## 📂 Repository Structure
+### 📂 Repository Structure
 
 - **Code**: Contains the Jupyter notebooks written in Python.
 - **Files**: Hosts various files used in this research such as `.csv`, `.npy`, and `.pkl`.
 - **Thesis**: The finalized thesis document can be found in this folder in PDF format.
 
-## 📝 Thesis Abstract
+### 📝 Thesis Abstract
 
 Network Intrusion Detection Systems (NIDS) are critical in ensuring the security of connected computer systems by actively detecting and preventing unauthorized activities and malicious attacks. Machine learning (ML) and deep learning (DL) based NIDS models leverage algorithms that learn from historical network traffic data to identify patterns and anomalies to capture complex relationships. 
 
@@ -21,7 +24,7 @@ To facilitate this research, we have curated a comprehensive Packet-level datase
 
 Recent advancements in Natural Language Processing (NLP) have demonstrated the effectiveness of Transformer-based models in handling sequence data with tasks such as token classification and text generation. We have adapted this technology to NIDS to extract key features and characteristics of the header and payload in the context of various attacks. Unlike traditional classification methods that assign predefined labels to network packets, this method focuses on generating tags based on the packet signature that explains the packet content and potential risks. The tags and descriptions offer network security professionals a tool to comprehend suspicious packets with an unfamiliar or potentially malicious signature, assess their nature, and help make informed decisions promptly.
 
-## 🔗 External Resources and Packages
+### 🔗 External Resources and Packages
 
 To further assist in this research, several Python packages have been developed and stored in separate GitHub repositories:
 
@@ -33,4 +36,4 @@ To further assist in this research, several Python packages have been developed 
 
 ---
 
-We hope you find this repository useful for your research or project. If you have questions or feedback, please open an issue or reach out directly.
+We hope you find this repository useful for your research or project. More resources involving flow descriptions will be added in the future.
